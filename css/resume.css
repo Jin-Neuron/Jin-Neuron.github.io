@@ -44,6 +44,11 @@ p {
   }
 }
 
+@media(min-width:440px){
+  .br-sp{
+    display: none;
+  }
+}
 
 .bcard-wrapper{
   display: block;
