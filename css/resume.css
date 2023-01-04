@@ -44,8 +44,21 @@ p {
   }
 }
 
-@media(min-width:440px){
+@media(min-width:540px){
   .br-sp{
+    display: none;
+  }
+  .right-sp{
+    display: inline;
+  }
+}
+@media(max-width:540px){
+  .right-sp{
+    width: 100%;
+    text-align: right;
+    padding-right:10%;
+  }
+  .br-nsp{
     display: none;
   }
 }
